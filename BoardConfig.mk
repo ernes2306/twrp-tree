@@ -118,6 +118,6 @@ TW_CRYPTO_SYSTEM_VOLD_DEBUG := true
 TW_CRYPTO_SYSTEM_VOLD_DISABLE_TIMEOUT := true
 
 # LZMA compression for recovery's & kernel ramdisk....
-BOARD_CUSTOM_BOOTIMG_MK := device/vendor_name/device_name/custombootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/motorola/blackjack_64/custombootimg.mk
 BOARD_CANT_BUILD_RECOVERY_FROM_BOOT_PATCH := true
 
