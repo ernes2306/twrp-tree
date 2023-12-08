@@ -116,10 +116,3 @@ TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
 TW_CRYPTO_SYSTEM_VOLD_DEBUG := true
 TW_CRYPTO_SYSTEM_VOLD_DISABLE_TIMEOUT := true
-
-# LZMA compression for recovery's & kernel ramdisk....
-BOARD_CUSTOM_BOOTIMG_MK := device/motorola/blackjack_64/custombootimg.mk
-BOARD_CANT_BUILD_RECOVERY_FROM_BOOT_PATCH := true
-
-BUILD_BROKEN_DUP_RULES := true
-
