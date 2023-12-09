@@ -38,4 +38,4 @@ auto                      vfat     /devices/platform/mt_usb*                    
 /md4img                   emmc     /dev/block/platform/bootdevice/by-name/md4img        flags=display=md4img
 # Add external sdcard
 /sdcard                   auto     /dev/block/mmcblk1p1                                 flags=display=sdcard
-/usb_otg                  auto     /dev/block/sda1                                      flags=display="USB OTG";storage;wipeingui;removable
+

@@ -103,6 +103,11 @@ PLATFORM_VERSION := 16.1.0
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
+TW_NO_EXFAT := true
+TW_NO_USB_STORAGE := true
+TW_NO_REBOOT_BOOTLOADER := true
+BOARD_HAS_NO_REAL_SDCARD := true
+TW_NO_EXFAT_FUSE := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
@@ -111,8 +116,12 @@ TW_INCLUDE_REPACKTOOLS := true
 # Crypto
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
-TWRP_EVENT_LOGGING := false
+TWRP_EVENT_LOGGING := true
 TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
 TW_CRYPTO_SYSTEM_VOLD_DEBUG := true
 TW_CRYPTO_SYSTEM_VOLD_DISABLE_TIMEOUT := true
+
+# LZMA compression for recovery's & kernel ramdisk....
+# BOARD_CUSTOM_BOOTIMG_MK := device/motorola/blackjack_64/custombootimg.mk
+# BOARD_CANT_BUILD_RECOVERY_FROM_BOOT_PATCH := true
