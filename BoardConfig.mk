@@ -109,15 +109,6 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
 
-# Crypto
-TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_FBE := true
-TWRP_EVENT_LOGGING := true
-TARGET_USES_LOGD := true
-TWRP_INCLUDE_LOGCAT := true
-TW_CRYPTO_SYSTEM_VOLD_DEBUG := true
-TW_CRYPTO_SYSTEM_VOLD_DISABLE_TIMEOUT := true
-
 # LZMA compression for recovery's & kernel ramdisk....
 # BOARD_CUSTOM_BOOTIMG_MK := device/motorola/blackjack_64/custombootimg.mk
 # BOARD_CANT_BUILD_RECOVERY_FROM_BOOT_PATCH := true
