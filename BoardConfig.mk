@@ -9,6 +9,9 @@ DEVICE_PATH := device/motorola/blackjack_64
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
+OF_DEFAULT_KEYMASTER_VERSION=4.0
+
+
 
 # A/B
 AB_OTA_UPDATER := true
@@ -102,6 +105,8 @@ PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
+TW_MAX_BRIGHTNESS := 255
+TW_DEFAULT_BRIGHTNESS := 150
 TW_EXTRA_LANGUAGES := false
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
