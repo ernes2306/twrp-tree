@@ -1,5 +1,5 @@
-/system                   ext4     /dev/block/platform/bootdevice/by-name/system        flags=display=system;slotselect
-/vendor                   ext4     /dev/block/platform/bootdevice/by-name/vendor        flags=display=vendor;slotselect
+/system                   ext2     /dev/block/platform/bootdevice/by-name/system        flags=display=system;slotselect
+/vendor                   ext2     /dev/block/platform/bootdevice/by-name/vendor        flags=display=vendor;slotselect
 /product                  ext4     /dev/block/platform/bootdevice/by-name/product       flags=display=product;slotselect
 /data                     f2fs     /dev/block/platform/bootdevice/by-name/userdata      flags=display=data
 /mnt/vendor/protect_f     ext4     /dev/block/platform/bootdevice/by-name/protect1      flags=display=protect_f
